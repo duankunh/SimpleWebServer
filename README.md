@@ -13,9 +13,9 @@ A rudimentary HTTP server written in C. It listens on a specified port for incom
 
 ## How to Run
 1. Clone this repository:
-    ```
+  ```
     git clone https://github.com/duankunh/SimpleWebServer.git
-    ```
+  ```
 3. Navigate to the repository directory:
   ```
   cd SimpleWebServer
@@ -26,9 +26,9 @@ A rudimentary HTTP server written in C. It listens on a specified port for incom
   gcc -o wserver wserver.c -Wall
   ```
 4. Run the server on a specified port (e.g., port 8080):
-   ```
+ ```
    ./wserver 8080
-   ```
+  ```
 
 5. In a web browser or using a tool like `curl`, make a request to `http://localhost:8080/`
 
